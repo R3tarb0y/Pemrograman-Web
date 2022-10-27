@@ -4,8 +4,13 @@
    padding: 0;
    margin: 0;
  }
+ 
+ .container{
 
+ display: block;
 
+ }
+ 
  ul {
     list-style-type: none;
     margin: 0;
@@ -15,24 +20,24 @@
     }
 
     
- li {
+li {
     float: right;
     margin-left: 10px;
     }
     
- li a,.Sosmedbtn{
+  li a,.Sosmedbtn{
     display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    }
+ }
     
- li a:hover, .Profile:hover:hover .Sosmedbtn{
+  li a:hover, .Profile:hover:hover .Sosmedbtn{
     background-color: palevioletred;
     }
     
- li.Profile {
+  li.Profile {
     display: inline-block;
     }
     
@@ -96,6 +101,26 @@
    .Profile:hover   .Keahlian {
       display: block;
       }
+   
+
+
+.isi{
+
+   height: auto;
+   width: auto; 
+   border: 10px;
+   padding:5px;
+   display: inline;
+
+}
+
+.biodata{
+   height: auto;
+   width: auto;
+   
+   border: 10px;
+   padding: 5px;
+}
 
 .logo{
    color: white;
@@ -134,4 +159,12 @@ h2{
 .table1 tr th{
    background: pink;
 
+}
+
+img{
+   
+   
+   height: 250px;
+   width: 250px;
+   
 }
